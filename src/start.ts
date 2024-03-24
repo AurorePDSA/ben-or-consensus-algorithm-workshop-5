@@ -35,7 +35,7 @@ async function main() {
     faultyArray
   );
 
-  await delay(200);
+  await delay(2000);
 
   await startConsensus(initialValues.length);
 }
